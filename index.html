@@ -13,13 +13,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
         integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./sass/main.scss">
 </head>
 
 <body>
-    <header class="header-nav">
+    <header class="header-navigation">
         <div class="container container-header">
-        <nav class="site-nav">
+        <nav class="site-navigation">
             <a class="webstudio-up link" lang="en" href=""><span class="accent">Web</span>Studio</a>
             <ul class="navigation">
                 <li class="navigation-item"><a class="navigation-link navigation-link-accent accent link" href="./index.html">Студия</a></li>
@@ -95,7 +95,7 @@
         
         <section class="section galery-container">
             <div class="container">
-            <h2 class="galery">Чем мы занимаемся</h2>
+            <h2 class="galery title">Чем мы занимаемся</h2>
             <ul class="galery-list">
                 <li class="galery-item">
                     <img src="./images/box1.jpg" alt="Верстка, рабочий процес" width="370" height="294" />
@@ -115,13 +115,13 @@
         
         <section class=" section team-container">
             <div class="container">
-            <h2 class="team">Наша команда</h2>
+            <h2 class="team title">Наша команда</h2>
             <ul class="team-list">
                 <li class="team-item">
                     <img src="./images/img3.jpg" alt="Игорь Демьяненко" width="270" height="260" />
                     <div class="team-person">
-                    <h3 class="name">Игорь Демьяненко</h3>
-                    <p class="name-description" lang="en">Product Designer</p>
+                    <h3 class="team-name">Игорь Демьяненко</h3>
+                    <p class="team-name-description" lang="en">Product Designer</p>
                     <ul class="social-list list">
                         <li class="social-item">
                             <a href="" class="social-link">
@@ -157,8 +157,8 @@
                 <li class="team-item">
                     <img src="./images/img2.jpg" alt="Ольга Репина" width="270" height="260" />
                     <div class="team-person">
-                        <h3 class="name">Ольга Репина</h3>
-                        <p class="name-description" lang="en">Frontend Developer</p>
+                        <h3 class="team-name">Ольга Репина</h3>
+                        <p class="team-name-description" lang="en">Frontend Developer</p>
                     <ul class="social-list list">
                         <li class="social-item">
                             <a href="" class="social-link">
@@ -194,8 +194,8 @@
                 <li class="team-item">
                     <img src="./images/img1.jpg" alt="Николай Тарасов" width="270" height="260" />
                     <div class="team-person">
-                    <h3 class="name">Николай Тарасов</h3>
-                    <p class="name-description" lang="en">Marketing</p>
+                    <h3 class="team-name">Николай Тарасов</h3>
+                    <p class="team-name-description" lang="en">Marketing</p>
                     <ul class="social-list list">
                         <li class="social-item">
                             <a href="" class="social-link">
@@ -231,8 +231,8 @@
                 <li class="team-item">
                     <img src="./images/img.jpg" alt="Михаил Ермаков" width="270" height="260" />
                     <div class="team-person">
-                    <h3 class="name">Михаил Ермаков</h3>
-                    <p class="name-description" lang="en">UI Designer</p>
+                    <h3 class="team-name">Михаил Ермаков</h3>
+                    <p class="team-name-description" lang="en">UI Designer</p>
                     <ul class="social-list list">
                         <li class="social-item">
                             <a href="" class="social-link">
@@ -268,9 +268,10 @@
             </ul>
             </div>
         </section>
+
         <section class="section">
             <div class="container">
-                <h2 class="clients">Постоянные клиенты</h2>
+                <h2 class="clients title">Постоянные клиенты</h2>
                 <ul class="clients-list">
                     <li class="clients-item">
                         <a href="" class="clients-link">
@@ -435,7 +436,7 @@
                     
 
                     <label for="accept-policy" class="modal-form-checkbox-label">Соглашаюсь с рассылкой и принимаю&nbsp;
-                            <a class="checkbox-conditions" href="#"> Условия договора</a>
+                            <a class="modal-form-checkbox-conditions" href="#"> Условия договора</a>
                     </label>
                             
                         <div class="modal-conditions">

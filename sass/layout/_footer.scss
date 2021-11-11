@@ -1,0 +1,76 @@
+.footer-container {
+  background: var(--hero-bg-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer-left {
+  width: 231px;
+}
+
+
+.footer-list {
+  display: flex;
+  align-items: baseline;
+}
+.footer-text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--primary-white-color);
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.footer-last {
+  margin-left: 90px;
+  width: 570px;
+}
+.footer-last-title {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+
+  color: var(--primary-white-color);
+}
+
+.footer-contact-form-input {
+  padding-left: 16px;
+
+  width: 358px;
+  min-height: 50px;
+  font-size: 16px;
+  line-height: 1.25;
+  color: var(--footer-contacts-color);
+  background-color: inherit;
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+}
+.footer-last-button {
+  width: 200px;
+  min-height: 50px;
+
+  border: 1px solid var(--accent-color);
+  background-color: var(--accent-color);
+  border-radius: 4px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: var(--primary-white-color);
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-last-button:hover {
+  background-color: #188ce8;
+}
+
+.footer-icon-send {
+  fill: currentColor;
+  vertical-align: middle;
+}
