@@ -13,15 +13,16 @@
 
 .features-item {
   width: 270px;
+  &:last-child {
+  margin-right: 0;
+}
 }
 
 .features-list {
   display: flex;
   justify-content: space-between;
 }
-.filter-list .features-item:last-child {
-  margin-right: 0;
-}
+
 .features-icon-bg {
   display: flex;
   align-items: center;

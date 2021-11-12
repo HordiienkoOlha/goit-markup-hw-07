@@ -5,10 +5,9 @@
 .galery-item {
   margin-right: 30px;
   position: relative;
-}
-
-.galery-list .galery-item:last-child {
+  &:last-child {
   margin-right: 0;
+}
 }
 
 .galery-list {

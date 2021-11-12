@@ -33,10 +33,7 @@
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.projects-link.link:hover .projects-text-overley,
-.projects-link.link:focus .projects-text-overley {
-  transform: translateY(0);
-}
+
 
 .projects-link {
   color: inherit;
@@ -67,5 +64,9 @@
   transition-property: color, background-color;
   transform: translateY(100%);
   transition: transform 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  .projects-link.link:hover &,
+.projects-link.link:focus & {
+  transform: translateY(0);
+}
 }
 

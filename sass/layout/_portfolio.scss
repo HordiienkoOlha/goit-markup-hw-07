@@ -1,9 +1,8 @@
 .portfolio-item {
   margin-right: 8px;
-}
-
-.portfolio-list .item:last-child {
+  &:last-child {
   margin-right: 0;
+}
 }
 
 .portfolio-list {
