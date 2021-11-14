@@ -1,10 +1,6 @@
 .hero {
   max-width: 1600px;
 
-  padding: 200px 0;
-  margin-left: auto;
-  margin-right: auto;
-
   text-align: center;
   background-color: #c4c4c4;
   flex-grow: 1;
@@ -17,7 +13,15 @@
   background-size: cover;
   background-position: center;
 }
-.hero-title {
+
+.container__hero {
+  padding: 200px 0;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.hero__title {
   text-align: center;
   margin-right: 0;
 
@@ -27,4 +31,14 @@
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+}
+
+.hero__button {
+  margin-top: 30px;
+
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  
+  align-items: center;
+  text-align: center;
 }

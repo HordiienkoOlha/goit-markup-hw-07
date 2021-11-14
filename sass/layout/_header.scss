@@ -1,9 +1,12 @@
+.header--border--bottom {
+  border-bottom: 1px solid #ececec;
+}
 .container__header {
   display: flex;
 
   padding-top: 24px;
   padding-bottom: 25px;
-  border-bottom: 1px solid #ececec;
+
 }
 .container__navigation {
   display: flex;
@@ -77,6 +80,7 @@
 }
 
 .contacts__link {
+  display: flex;
   color: var(--primary-text-color);
   &:focus,
 &:hover {
