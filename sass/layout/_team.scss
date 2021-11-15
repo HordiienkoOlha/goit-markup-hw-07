@@ -1,11 +1,11 @@
-.team--background--color {
+.team--gray-background {
   background-color: var(--button-bg-color);
 }
 .team__title {
   text-align: center;
 }
 
-.team__list {
+.team {
   display: flex;
 
   margin-top: 50px;
@@ -32,7 +32,7 @@
   padding: 30px 0 30px 0;
 }
 
-.team__name {
+.team__title {
   margin-bottom: 10px;
 
   font-weight: 500;

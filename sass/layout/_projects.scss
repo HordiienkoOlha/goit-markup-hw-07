@@ -1,5 +1,5 @@
 
-.container__projects {
+.projects {
   display: flex;
   flex-wrap: wrap;
   margin-top: 50px;
@@ -48,7 +48,6 @@
   transform: translateY(0);
 }
 }
- 
 .projects__holder {
   padding: 20px 24px;
 }
@@ -62,11 +61,6 @@
   line-height: 2;
   letter-spacing: 0.06em;
 }
-
-
-
-
-
 .projects__description {
   font-size: 16px;
   line-height: 1.88;

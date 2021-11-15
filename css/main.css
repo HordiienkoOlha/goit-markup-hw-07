@@ -69,7 +69,7 @@ a {
   margin: 0 auto;
 }
 
-.section--top--bottom--padding {
+.section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -93,7 +93,7 @@ a {
   color: var(--primary-white-color);
 }
 
-.title--color--font {
+.section__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -114,11 +114,11 @@ a {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.button:hover {
+.button:hover, .button:focus {
   background-color: #188ce8;
 }
 
-.social__list {
+.social {
   display: flex;
   justify-content: center;
 }
@@ -147,8 +147,8 @@ a {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social__icon:hover .social__icon,
-.social__icon:focus .social__icon {
+.social-link:hover .social__icon,
+.social-link:focus .social__icon {
   fill: var(--primary-white-color);
 }
 
@@ -351,7 +351,7 @@ a {
   fill: var(--accent-color);
 }
 
-.header--border--bottom {
+.header {
   border-bottom: 1px solid #ececec;
 }
 
@@ -361,7 +361,7 @@ a {
   padding-bottom: 25px;
 }
 
-.container__navigation {
+.navigation {
   display: flex;
   align-items: center;
 }
@@ -410,7 +410,7 @@ a {
   background-color: var(--accent-color);
 }
 
-.container__contacts {
+.contacts {
   display: flex;
   margin-left: auto;
   align-items: center;
@@ -447,8 +447,11 @@ a {
   fill: var(--accent-color);
 }
 
-.container__hero {
+.hero {
   max-width: 1600px;
+  padding: 200px 0;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
   background-color: #c4c4c4;
   flex-grow: 1;
@@ -456,9 +459,6 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding: 200px 0;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .hero__title {
@@ -480,11 +480,7 @@ a {
   text-align: center;
 }
 
-.container__features {
-  padding-top: 94px;
-}
-
-.features__list {
+.features {
   display: flex;
   justify-content: space-between;
 }
@@ -522,7 +518,7 @@ a {
   line-height: 1.71;
 }
 
-.container__galery {
+.section--no-paddihg-top {
   padding-top: 0;
 }
 
@@ -535,7 +531,7 @@ a {
   margin-right: 0;
 }
 
-.galery__list {
+.galery {
   display: flex;
   margin-top: 50px;
 }
@@ -561,7 +557,7 @@ a {
   background-color: rgba(47, 48, 58, 0.8);
 }
 
-.team--background--color {
+.team--gray-background {
   background-color: var(--button-bg-color);
 }
 
@@ -569,7 +565,7 @@ a {
   text-align: center;
 }
 
-.team__list {
+.team {
   display: flex;
   margin-top: 50px;
   text-align: center;
@@ -595,7 +591,7 @@ a {
   padding: 30px 0 30px 0;
 }
 
-.team__name {
+.team__title {
   margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
@@ -617,7 +613,7 @@ a {
   background-color: var(--accent-color);
 }
 
-.clients__list {
+.clients {
   display: flex;
   margin-top: 50px;
 }
@@ -657,7 +653,7 @@ a {
   border: 1px solid var(--accent-color);
 }
 
-.footer--dark--background {
+.footer--dark-background {
   background: var(--hero-bg-color);
   padding-top: 60px;
   padding-bottom: 60px;
@@ -668,7 +664,7 @@ a {
   align-items: baseline;
 }
 
-.container__info {
+.info {
   width: 231px;
 }
 
@@ -713,21 +709,24 @@ a {
   margin-bottom: 20px;
 }
 
-.container__join .social__link {
+.join .social__link {
   background-color: rgba(255, 255, 255, 0.1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.container__join .social__link:hover, .container__join .social__link:focus {
+.join .social__link:hover, .join .social__link:focus {
   background-color: var(--accent-color);
 }
 
-.socials--icon--footer--fill {
+.socials--icon-white-fill {
   fill: var(--primary-white-color);
 }
 
 .container__subscribe {
   margin-left: 90px;
+}
+
+.subscribe {
   width: 570px;
 }
 
@@ -765,7 +764,7 @@ a {
   margin-left: 70px;
 }
 
-.portfolio__list {
+.portfolio {
   display: flex;
   justify-content: center;
 }
@@ -798,11 +797,7 @@ a {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.portfolio__button:last-child {
-  margin-right: 0;
-}
-
-.container__projects {
+.projects {
   display: flex;
   flex-wrap: wrap;
   margin-top: 50px;
